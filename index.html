@@ -252,6 +252,16 @@
             font-size: 0.95rem;
         }
         
+        /* Time input arrow styling to match select dropdowns */
+        input[type="time"]::-webkit-calendar-picker-indicator {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+        
+        input[type="time"]::-webkit-calendar-picker-indicator:hover {
+            opacity: 1;
+        }
+        
         input[type="time"]:focus,
         select:focus,
         input[type="text"]:focus,
